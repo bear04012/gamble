@@ -97,7 +97,9 @@ export default class App extends React.Component {
     })
 
     return (
+
       <View style={styles.container}>
+        {console.log("hello")}
         {divHorses}
         <Button
         onPress={this.start}
